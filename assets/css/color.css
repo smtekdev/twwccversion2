@@ -25,7 +25,7 @@
 }
 
 .theme-btn.btn-one{
-	border-color: #800020;
+	border-color: #afb8bd;
 }
 
 .theme-btn.btn-two{
@@ -317,7 +317,8 @@
 }
 
 .video-section .content-box .video-btn a{
-	color: #f65024;
+	background: #afb8bd;
+	color: #000;
 }
 
 .video-section .content-box .video-btn a:hover{
