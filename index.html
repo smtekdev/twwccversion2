@@ -53,6 +53,8 @@
             <model-viewer src="assets/images/ufom.glb" alt="model robot" camera-controls touch-action="pan-y" autoplay ar ar-modes="webxr scene-viewer" shadow-intensity="1"></model-viewer>
 </div>  -->
             <div class="logo-box">
+                <model-viewer src="church.glb" alt="A 3D model of a car" shadow-intensity="1" camera-controls auto-rotate ar >
+                </model-viewer>
                 <!-- <div class="shape" style="background-image: url(assets/images/shape/shape-1.png);"></div> -->
                 <figure class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
             </div>
@@ -2213,6 +2215,14 @@
 
     <!-- main-js -->
     <script src="assets/js/script.js"></script>
+    <script type="module"
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+</script>
+
+<!-- Loads <model-viewer> for old browsers like IE11: -->
+<script nomodule
+src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+</script>
 
 </body><!-- End of .page_wrapper -->
 
