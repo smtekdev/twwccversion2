@@ -674,6 +674,7 @@ img {
   background-color: #8b8b8b;
   padding: 12px 20px;
   border-radius: 30px;
+  display: none;
 }
 
 .header-top .donate-btn{
@@ -876,7 +877,200 @@ img {
   position: absolute;
   left: 0px;
   top: 0px;
+  
 }
+ /* Shiraz */
+.icon-box .church-i{
+  padding-top: 20px;
+  padding-left: 26px;
+  width: 70px;
+  height: 70px;
+}
+
+
+.mission-main-div{
+  padding-top: -200px;
+  display: flex;
+  /* background-color: rgb(182, 182, 182); */
+
+}
+
+.mission-left-section .img-div{
+height: 500px;
+}
+
+.mission-right-section{
+  
+  padding: 50px;
+}
+
+
+.mission-left-section .img-div{
+  
+  padding: 50px;
+  width: 600px;
+  height: 500px;
+}
+.main-div-team{
+  margin-top: 150px;
+  display: flex;
+ 
+  padding: 100px;
+}
+
+
+.left-div{
+  border-radius: 50px;
+  
+}
+.right-div .top-text{
+ 
+
+ 
+}
+
+.right-div .text{
+  padding: 50px;
+}
+
+.left-div .rosepic{
+  width: 900px;
+  height: 500px;
+}
+
+.my-secretary-heading{
+  margin-top: 250px;
+}
+
+.box-designation{
+
+  padding-bottom: 20px;
+}
+
+.designation-img{
+
+
+  height: 350px;
+
+}
+
+.uc-event-heading{
+  font-weight: 700;
+  margin-top: -100px;
+  margin-left: 500px;
+  margin-bottom: 50px;
+}
+
+
+.events-block-two{
+  justify-content: space-evenly;
+}
+
+
+.proverb-div{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  
+  
+  
+}
+
+
+.proverb-div .text h1{
+  font-weight: 900;
+  width: 600px;
+  
+}
+
+.proverb-div .img{
+  width: 600px;
+}
+
+
+
+.cashapps{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 1280px;
+  height: 500px;
+  display: flex;
+  
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+}
+
+.cashapps li{
+  list-style-type: disc;
+  
+}
+
+.cashtext h4{
+  font-weight: 700;
+  padding-left: 100px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.cashtab{
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 15px;
+  width: 350px;
+  height: 500px;
+  border: 1px solid green;
+}
+
+.cashtab .cashimg{
+  padding-left: 80px;
+}
+
+
+.days{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-headings{
+  text-align: center;
+  color: #800020;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+.contact-para{
+  text-align: center;
+  color: green;
+  font-weight: 600;
+  
+}
+
+.contact-list{
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 2px;
+  
+}
+
+
+.main-contact-div{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+
+}
+
+
+/* .arrow2{
+  
+  width: 50px;
+  height: 50px;
+} */
+
+/* shiraz */
 
 .header-lower .outer-box .text span{
   position: relative;
@@ -3610,7 +3804,12 @@ div#mCSB_1_container{
 
 .owl-dots-none .owl-dots,
 .owl-nav-none .owl-nav{
+  
   display: none !important;
+}
+
+.my-team-block{
+  padding-bottom: 50px;
 }
 
 
@@ -3916,6 +4115,7 @@ div#mCSB_1_container{
   position: relative;
   display: block;
   padding: 17px 0px 14px 0px;
+  
 }
 
 .case-block-one .inner-box .lower-content .info-box li{
@@ -3976,6 +4176,7 @@ div#mCSB_1_container{
 .case-section .tabs-box{
   position: relative;
   height: 570px;
+  
 }
 
 .case-section .title-inner{
@@ -3983,11 +4184,13 @@ div#mCSB_1_container{
   padding-right: 25px;
   border-right: 4px solid #eae8e6;
   padding-bottom: 75px;
+  
 }
 
 .case-section .sec-title .top-text:before{
   left: inherit;
   right: 0px;
+  
 }
 
 .case-section .sec-title{
@@ -4232,7 +4435,7 @@ div#mCSB_1_container{
   line-height: 28px;
   color: #ffffff;
   font-weight: 700;
-  margin-bottom: 3px;
+  margin-bottom: 0px;
 }
 
 .recent-case-section .single-item .text h3 span{
@@ -5008,6 +5211,7 @@ div#mCSB_1_container{
   font-family: 'Caveat', cursive;
   font-weight: 400;
   margin-bottom: 0px;
+  color:#800020;
 }
 
 .team-block-one .inner-box .content-box h3{
@@ -5058,7 +5262,7 @@ div#mCSB_1_container{
   display: inline-block;
   right: 0px;
   left: 0px;
-  bottom: -25px;
+  bottom: -90px;
   text-align: center;
   max-width: 130px;
   margin: 0 auto;
@@ -5096,7 +5300,7 @@ div#mCSB_1_container{
 .team-section .owl-dots{
   position: relative;
   display: block;
-  margin-top: 30px;
+  margin-top: 80px;
 }
 
 .team-section .owl-theme .owl-dots .owl-dot span{
@@ -7585,6 +7789,7 @@ div#mCSB_1_container{
   left: 30px;
   top: -35px;
   z-index: 2;
+  
 }
 
 .events-block-two .inner-box .post-date h3{
@@ -7601,12 +7806,15 @@ div#mCSB_1_container{
   color: #ffffff;
   font-weight: 700;
   padding: 10px 0px;
+  background-color: #800020;
+  
 }
 
 .events-block-two .inner-box .post-date h3 span{
   position: relative;
   display: block;
   font-size: 16px;
+  
 }
 
 .events-block-two .inner-box .image-box{
@@ -7614,6 +7822,7 @@ div#mCSB_1_container{
   display: block;
   overflow: hidden;
   border-radius: 15px;
+  
 }
 
 .events-block-two .inner-box .image-box:before {
@@ -7627,6 +7836,7 @@ div#mCSB_1_container{
   right: 0px;
   opacity: 0.5;
   z-index: 1;
+  
 }
 
 .events-block-two .inner-box .image-box img{
@@ -7660,6 +7870,12 @@ div#mCSB_1_container{
 
 .events-block-two .inner-box:hover .content-box:before{
   height: 100%;
+  background-color: #800020;
+  
+}
+
+.inner-box p{
+  color: white;
 }
 
 .events-block-two .inner-box .content-box .category{
@@ -7668,11 +7884,13 @@ div#mCSB_1_container{
   right: 20px;
   opacity: 0;
   transition: all 500ms ease;
+ 
 }
 
 .events-block-two .inner-box:hover .content-box .category{
   opacity: 1;
   top: -46px;
+  
 }
 
 .events-block-two .inner-box .content-box .category a{
@@ -7689,6 +7907,7 @@ div#mCSB_1_container{
 
 .events-block-two .inner-box .content-box .category a:hover{
   color: #ffffff;
+  
 }
 
 .events-block-two .inner-box .content-box .info{
@@ -7754,7 +7973,7 @@ div#mCSB_1_container{
 }
 
 .events-block-two .inner-box:hover .content-box h3 a{
-  color: #232323;
+  color: #ffffff;
 }
 
 .events-block-two .inner-box .content-box .links a{
@@ -8574,7 +8793,8 @@ div#mCSB_1_container{
   height: 100%;
   left: 0px;
   top: 0px;
-  opacity: 0.86;
+  opacity: 40%;
+  background-color: #800020;
 }
 
 .page-title .title{
@@ -8635,8 +8855,9 @@ div#mCSB_1_container{
 /** about-style-three **/
 
 .about-style-three{
+  margin-top: 50px;
   position: relative;
-  padding: 101px 0px 370px 0px;
+  padding: 10px 0px 10px 0px;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -8648,9 +8869,10 @@ div#mCSB_1_container{
   content: '';
   background: #ffffff;
   width: 100%;
-  height: 100%;
+  
   left: 0px;
   top: 0px;
+  bottom: -300px;
   opacity: 0.0;
 }
 
@@ -8771,6 +8993,7 @@ div#mCSB_1_container{
   display: block;
   padding-right: 300px;
   padding-bottom: 120px;
+  
 }
 
 .image_block_2 .image-box .image{
@@ -8783,8 +9006,11 @@ div#mCSB_1_container{
 
 .image_block_2 .image-box .image-2{
   position: absolute;
+  top: -30px;
   right: 0px;
   bottom: 0px;
+  height: 300px;
+  width: 350px;
 }
 
 .image_block_2 .image-box .rotate-text{
@@ -11566,6 +11792,7 @@ div#mCSB_1_container{
   position: relative;
   display: block;
   margin-bottom: 42px;
+
 }
 
 .case-details-content .content-one .image-box{
@@ -12619,11 +12846,11 @@ div#mCSB_1_container{
 }
 
 .event-details-content .tab-btns li.active-btn{
-
+color:#800020;
 }
 
 .event-details-content .tab-btns li.active-btn i{
-  
+  color: #800020;
 }
 
 .event-details-content .tabs-content h3{
@@ -14380,6 +14607,15 @@ div#mCSB_1_container{
   transition: all 500ms ease;
 }
 
+.tab-btn a:hover {
+  color: #800020;
+}
+
+.tab-btn  a{
+  color: #5f5e5e;
+}
+
+
 .shop-details .discription-inner .tab-btn-box .tab-btns li.active-btn{
   color: #fff;
 }
@@ -15839,4 +16075,19 @@ div#mCSB_1_container{
 
 .event-details-content .tabs-content .contact-inner .form-inner .form-group .select-box{
   min-height: 60px;
+}
+
+
+
+.div-for-flex{
+  display: flex;
+}
+
+.div-for-flex .div-for-img{
+  width: 150%;
+  height: 100%;
+}
+
+.div-for-flex .content-one{
+  padding-right: 80px;
 }
